@@ -3,7 +3,7 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  
   font-family: 'Poppins';
   overflow-x: hidden;
 }
@@ -28,6 +28,7 @@ a:hover{
 
 nav{
   display: flex;
+  margin: auto;
   position: fixed;
   justify-content: space-around;
   align-items: center;
@@ -53,12 +54,14 @@ background: linear-gradient(20deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
   margin-left: 2rem;
 }
 .content {
-  padding: 170px;
+  margin-top: 200px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .content .texBox{
   position: relative;
-  max-width: 600px;
+  
 }
 
 .content .texBox h1{
@@ -69,7 +72,7 @@ background: linear-gradient(20deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
 .content .texBox h1 span{
   font-size: 5rem;
   font-weight: 700;
-  letter-spacing: 10px;
+  
   color:rgb(255, 255, 255);
 }
 
